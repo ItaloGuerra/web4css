@@ -1,0 +1,41 @@
+body{
+    background-color: green;
+}
+.content{
+    background-color: #ce9c5f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.logo > img{
+    max-width: 100px;
+    max-height: 100px;
+}
+.cabecalho{
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+.cabecalho > div{
+    text-align: center;
+    margin: 10px;
+}
+.content > .central{
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    text-align: center;
+    justify-content: center;
+    border: 5px,double, brown;
+}
+.imgAranha{
+    max-width: 300px;
+    max-height: 500px;
+}
+.rodape > div{
+    display: flex;
+    margin: 10px 10px;
+    text-align: end;
+}
